@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="fontawesome-free/css/all.css">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="image/9.jpg">
+    <link rel="manifest" href="manifest.json">
     <title>OLUOKUN KABIRU ADESINA</title>
 </head>
 <body>
@@ -108,6 +109,7 @@
                 </div>
                 <div class="col-md-1"></div>
                <div class="col-md-5 introduction">
+                <h4 class="text-cente text-light font-weight-bold mt-sm-5 bg-info p-1 rounded" id="greet" ></h4>
                 <h3 class="text-center text-light font-weight-bold mt-sm-5" >Hello</h3>
                 <h1 class="text-center text-light font-weight-bold p-2">I'M OLUOKUN KABIRU ADESINA</h1>
                 <h4 class="text-light text-center p-3 ">I'm a Creative Software Developer</h4>
@@ -133,7 +135,7 @@
             <div class="card-deck">
               <div class="card">
                 <div class="card-body text-center userimage">     
-                   <img src="image/9.jpg" style="width: 90%;" class="card-img img-fluid rounded-circle" style="" alt="OLUOKUN KABIRU ADESINA">
+                   <img src="image/9.jpg" style="width: 90%;" class="card-img img-fluid rounded-circle" alt=" OLUOKUN KABIRU ADESINA">
                 </div>
               </div>
               <div class="card">
@@ -320,6 +322,7 @@
 <script src="jquery/jquery.min.js"></script>
 <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="script.js"></script>
+<script src="app.js"></script>
 
 <script>
   $(document).ready(setInterval(slider, 2000));
@@ -340,4 +343,20 @@
   y.innerHTML = d.getFullYear();
   }
   $(document).ready(year);
+  $(document).ready(greeting);
+
+  function greeting(){
+    var greet = document.getElementById('greet');
+    var say = "";
+    var tim = new Date();
+    var time = tim.getHours();
+    if(time >= 0 && time < 12){
+      say = "Good Morning";
+    }else if(time >= 12 && time <= 16){
+      say = "Good Afternoon";
+  } else {
+    say = "Good Evening";
+  }
+ greet.innerHTML = say;
+  }
 </script>

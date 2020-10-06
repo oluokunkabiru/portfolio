@@ -1,0 +1,51 @@
+{
+    "name":"OLUOKUN KABIRU ADESINA",
+    "short_name":"OLUOKUN KABIRU",
+    "start_url":"/index.html",
+    "display":"standalone",
+    "background_color":"#13a9dbe3",
+    "theme_color":"#13a9dbe3",
+    "orientation":"portrait-primary",
+    "icons":[
+        {
+            "src":"img/logo72.png",
+            "type":"image/png",
+            "sizes":"72x72"
+        },
+        {
+            "src":"image/logo96.png",
+            "type":"image/png",
+            "sizes":"96x96"
+        },
+        {
+            "src":"image/logo128.png",
+            "type":"image/png",
+            "sizes":"128x128"
+        },
+        {
+            "src":"image/logo144.png",
+            "type":"image/png",
+            "sizes":"144x144"
+        },
+        {
+            "src":"image/logo152.png",
+            "type":"image/png",
+            "sizes":"152x152"
+        },
+        {
+            "src":"image/logo192.png",
+            "type":"image/png",
+            "sizes":"192x192"
+        },
+        {
+            "src":"image/logo384.png",
+            "type":"image/png",
+            "sizes":"384x384"
+        },
+        {
+            "src":"image/logo512.png",
+            "type":"image/png",
+            "sizes":"512x512"
+        }
+    ]
+}
