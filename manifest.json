@@ -8,7 +8,7 @@
     "orientation":"portrait-primary",
     "icons":[
         {
-            "src":"img/logo72.png",
+            "src":"image/logo72.png",
             "type":"image/png",
             "sizes":"72x72"
         },

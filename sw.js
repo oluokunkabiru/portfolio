@@ -1,5 +1,5 @@
 // install service worker
-const staticWeb = "native-app-v1";
+const staticWeb = "native-app-v";
 const dynamicWeb = 'native-dynamic-app-v1';
 const assets = [
     'index.html',
@@ -13,6 +13,7 @@ const assets = [
     'image/12.jpg',
     'script.js',
     'error.html'
+
 ];
 
 self.addEventListener('install', evt => {
