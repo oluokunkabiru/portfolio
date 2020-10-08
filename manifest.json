@@ -1,7 +1,7 @@
 {
     "name":"OLUOKUN KABIRU ADESINA",
     "short_name":"OLUOKUN KABIRU",
-    "start_url":"/",
+    "start_url":"/index.html",
     "display":"standalone",
     "background_color":"#13a9dbe3",
     "theme_color":"#13a9dbe3",
