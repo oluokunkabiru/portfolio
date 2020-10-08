@@ -2,22 +2,22 @@
 const staticWeb = "native-app-v";
 const dynamicWeb = 'native-dynamic-app-v1';
 const assets = [
-    'index.html',
-    'app.js',
-    'bootstrap/js/bootstrap.bundle.min.js',
-    'jquery/jquery.min.js',
-    'bootstrap/bootstrap.min.css',
-    'fontawesome-free/css/all.css', 
-    'style.css',
-    'image/9.jpg',
-    'image/12.jpg',
-    'script.js',
-    'error.html'
+    '/index.html',
+    '/app.js',
+    '/bootstrap/js/bootstrap.bundle.min.js',
+    '/jquery/jquery.min.js',
+    '/bootstrap/bootstrap.min.css',
+    '/fontawesome-free/css/all.css', 
+    '/style.css',
+    '/image/9.jpg',
+    '/image/12.jpg',
+    '/script.js',
+    '/error.html'
 
 ];
 
 self.addEventListener('install', evt => {
-    // console.log('Service Worker Installed')
+    console.log('Service Worker Installed')
     evt.waitUntil(
         caches.open(staticWeb).then(cache => {
             console.log('Cache the pages');
